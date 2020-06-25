@@ -1,0 +1,1 @@
+>run command in "composer require phpmailer/phpmailer" to install php mailer lib if not exists..

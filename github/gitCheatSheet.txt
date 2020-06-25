@@ -1,0 +1,44 @@
+Generate ssh key
+$ ssh-keygen (enter many times)
+
+------------------------------------------------
+To pull from saved repository
+git pull origin master
+
+------------------------------------------------
+To push changes to current repo
+git add .
+git commit -m "comment"
+git push -u origin master
+
+-----------------------------------------------
+To add new repo
+git remote add origin https://url
+git pull origin master
+
+--------------------------------------------
+To see how much repo are connected
+git remote -v
+
+--------------------------------------------
+To change url
+git remote set-url origin sshurl/httpsurl
+
+-------------------------------------------
+To generte ssh key setup 
+inside any repo 
+ssh-keygen -t rsa -b 4096  -C "email address"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+------------------------------------------
+To generate blank file e.g
+touch hello.txt
+
+-----------------------------------------
+To ignore make .gitignore file and write file path
+To ignore certain extension *.extension
+
+--------------------------------------------
+To merging conglict.
+git merge origin/master ->so where mergin occuring
