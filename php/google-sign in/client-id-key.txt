@@ -1,9 +1,0 @@
-client id: 
-007945367-95he6b786p6ellup264pno997ur2ojfo.apps.googleusercontent.com
-
-key:
-7U7z93RLEUJC_6snopO6S7
-
-get from console.google.developer
-
-
